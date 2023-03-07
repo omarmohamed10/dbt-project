@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: globalmart
+    database: PC_DBT_DB
+    schema: GLOBALMART2
+    tables:
+      - name: orders
+      - name: customer
+      - name: product
