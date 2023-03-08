@@ -4,4 +4,4 @@
     )
 }}
 
-select * from PC_DBT_DB.GLOBALMART2.ORDERS
+select * from {{ source('globalmart', 'orders') }}
